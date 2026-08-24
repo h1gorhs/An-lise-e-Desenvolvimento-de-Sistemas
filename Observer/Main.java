@@ -16,6 +16,6 @@ public class Main {
         memoria.assina(user1);
 
         //Alguma alteração ocorre na propriedade de interesse
-        memoria.setUsoDeMemoria(51);
+        memoria.setUsoDeMemoria(81);
     }
 }
