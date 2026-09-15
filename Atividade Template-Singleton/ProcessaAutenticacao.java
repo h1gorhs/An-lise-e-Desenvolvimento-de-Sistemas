@@ -7,9 +7,13 @@ public abstract class ProcessaAutenticacao {
     }
 
     protected  abstract void loginEtapa1();
+
     protected  abstract void loginEtapa2();
 
     protected  void confirmaLogin(){
         System.out.println("Login realizado com sucesso!");
+
+        SessaoUsuario sessao = SessaoUsuario.getInstancia();
+        sessao.iniciarSessao();
     }
 }
