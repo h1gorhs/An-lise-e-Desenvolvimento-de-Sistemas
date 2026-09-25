@@ -1,0 +1,5 @@
+estudar isso para dia 09/10
+
+Composite
+Template
+Builder
