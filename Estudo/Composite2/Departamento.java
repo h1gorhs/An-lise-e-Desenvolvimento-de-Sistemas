@@ -4,12 +4,13 @@ import java.util.ArrayList;
 public class Departamento implements IComponent {
 
     private String nome;
-    List<IComponent> componentes = new ArrayList();
+    List<IComponent> componentes = new ArrayList<>();
     
     public Departamento(String nome){
         this.nome = nome;
     }
 
+    @Override 
     public void mostrar(){
         System.out.println("Departamento: " + nome);
         for (IComponent componente : componentes) {
