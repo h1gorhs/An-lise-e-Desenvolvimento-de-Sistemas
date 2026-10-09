@@ -34,5 +34,15 @@ public class Pedido {
         private String observacao;
     }
 
-    public 
+    public  setNumero(int numero){
+        this.numero = numero;
+        return this;
+    }
+
+    public void setCliente(String cliente){
+        this.cliente = cliente;
+        return this;
+    }
+
+    public void setEndereco
 }
